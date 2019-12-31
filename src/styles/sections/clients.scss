@@ -1,0 +1,63 @@
+.clients {
+  height: 1150px;
+
+  &__list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    margin-bottom: 115px;
+  }
+
+  &__names {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 115px;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      background: url(../img/arrow.png) center center no-repeat;
+      width: 40px;
+      height: 40px;
+      left: -135px;
+      
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      background: url(../img/arrow2.png) center center no-repeat;
+      width: 40px;
+      height: 40px;
+      right: -135px;
+    }
+  }
+}
+
+.title{
+
+  &_white{
+    color: #ffffff;
+  }
+
+  &_color {
+    border-bottom: 4px solid #fff;
+    position: relative;
+    width: 365px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      border: 6px solid #fff;
+
+      width: 4px;
+      height: 5px;
+      color: #fff;
+      right: -11px;
+      top: -5px;
+    }
+  }
+
+}

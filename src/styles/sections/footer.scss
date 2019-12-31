@@ -1,0 +1,22 @@
+.footer{
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+
+    &__text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__p {
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        
+    }
+
+    
+}
